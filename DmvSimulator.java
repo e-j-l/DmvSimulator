@@ -9,18 +9,18 @@ public class DmvSimulator {
     
     public static void main(String[] args) {
         
-        // welsome message
+        // welcome message
         System.out.println("Welcome to the DMV. \nPlease take a number and someone will be with you shortly!\n");
 
         // create a random number
         Random random = new Random();
-        int num = random.nextInt(100) + 1;
+        int num = random.nextInt(200) + 1;
 
         // tells user what number they have
         System.out.println("Your number is: " + num);
         System.out.println("");
 
-        for (int i = num + 1; i<101; i++) {
+        for (int i = num + 1; i<201; i++) {
             System.out.println("Next: " + i);
         }
 
