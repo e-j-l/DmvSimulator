@@ -29,7 +29,7 @@ public class DmvSimulator {
         }
 
         System.out.println("Last Number: " + num);
-        System.out.println("You don't have the required paperwork");
-        
+        System.out.println("You don't have the required paperwork, stupid.");
+        System.out.println("Now leave and NEVER COME BACK.")        
     }
 }
