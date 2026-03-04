@@ -1,7 +1,3 @@
-/*
-work with kenneth
-figure out a time to meet up outside of class to finish the code
-*/
 
 import java.util.Random;
 
@@ -37,7 +33,8 @@ public class DmvSimulator {
             System.out.println("I guess this is enough paperwork.");
         } else {
             System.out.println("You don't have the required paperwork, stupid.");
-            System.out.println("Now leave and NEVER COME BACK.");  
+            System.out.println("Now leave and NEVER COME BACK."); 
+            System.out.println("Muahahahahahahahaha");
         }        
     }
 }
